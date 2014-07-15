@@ -1,8 +1,8 @@
 URLify2 = function (s, num_chars) {
-    s = URLify2.downcode(s);
-    s = URLify2.nfd(s).replace(/[^\u0000-\u00FF]/g, ""); // Convert to ASCII
-    s = s.replace(/[^\w\s-]/g, ''); // Remove unwanted characters
-    s = s.replace(/^\s+|\s+$/g, ''); // Trim leading/trailing dashes
+    s = URLify2.downcode(s); // Convert to ASCII
+    s = URLify2.nfd(s).replace(/[^\u0000-\u00FF]/g, ""); // Remove unwanted characters
+    s = s.replace(/[^\w\s-]/g, ''); // Trim leading/trailing dashes
+    s = s.replace(/^\s+|\s+$/g, '');
     s = s.replace(/[-\s]+/g, '-'); // Convert spaces to dashes
     s = s.replace(/^-+|-+$/g, ''); // Trim leading/trailing dashes
     s = s.toLowerCase();
