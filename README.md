@@ -16,6 +16,6 @@ Both client and server side.
 Installation
 ------------
 
-```
-mrt add urlify2
+``` sh
+meteor add jplatimer:urlif2-minifiable
 ```
