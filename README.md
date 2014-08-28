@@ -1,6 +1,8 @@
 urlify2
 =======
 
+Fork of the awesome work by @peerlibrary, this version has some fuctionality removed but works with spiderable/phantomjs when minified by meteor.
+
 Adding this package to your [Meteor](http://www.meteor.com/) application adds `URLify2` function into the global scope,
 which you can use to make slugs from Unicode strings. Resulting slugs are lower space and spaces are replaced with `-`.
 It works both on server and client.
