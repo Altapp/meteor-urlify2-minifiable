@@ -1,8 +1,8 @@
 Package.describe({
-    name: "jplatimer:urlif2-minifiable",
+    name: "altapp:urlify2-minifiable",
   	summary: "Generate slugs with smart urlify supporting unicode, minifiable",
-    git: "https://github.com/manybothans/meteor-urlify2-minifiable.git",
-    version: "1.0.1"
+    git: "https://github.com/Altapp/meteor-urlify2-minifiable.git",
+    version: "1.1.0"
 });
 
 Package.onUse(function (api) {

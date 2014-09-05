@@ -17,5 +17,5 @@ Installation
 ------------
 
 ``` sh
-meteor add jplatimer:urlif2-minifiable
+meteor add altapp:urlify2-minifiable
 ```
